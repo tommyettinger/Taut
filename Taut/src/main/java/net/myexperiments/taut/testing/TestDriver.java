@@ -19,7 +19,7 @@ public class TestDriver {
     int c = 0, x = 50, y = 30;
 
     public TestDriver() {
-        display = new MonospacedPanel(x, y, new Font("Ariel", Font.PLAIN, 16));
+        display = new MonospacedPanel(x, y, new Font("Monkey", Font.PLAIN, 16));
         frame = new JFrame("Testing");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(display.getComponent(), BorderLayout.CENTER);
