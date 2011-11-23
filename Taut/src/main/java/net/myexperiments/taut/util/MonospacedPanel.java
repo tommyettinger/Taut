@@ -13,7 +13,11 @@ import javax.swing.JPanel;
  */
 public class MonospacedPanel extends JPanel implements MonospacedDisplay {
 
-    //the array of the contents of the screen
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -6274307301765466101L;
+	//the array of the contents of the screen
     private MultiCharDataBlock contents[][];
     private int rows, columns, reduction = 0;
     private Dimension cellDimension, panelDimension;
